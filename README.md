@@ -1,4 +1,4 @@
-# iris-langgraph
+# sdr-agent-langgraph
 
 > Agent SDR de qualificação B2B implementado em **LangGraph** — portado a partir de um workflow de produção em n8n, sanitizado pra uso público como referência de arquitetura.
 
@@ -66,7 +66,7 @@ Cada **invoke do grafo = um turno de conversa**. O `next_action` no state guia q
 ## Estrutura
 
 ```
-src/iris_langgraph/
+src/sdr_agent_langgraph/
 ├── state.py            # AgentState (TypedDict) — memória compartilhada
 ├── graph.py            # build_graph() — monta o StateGraph
 ├── nodes/              # cada node = 1 função (state) -> dict updates
@@ -102,8 +102,8 @@ Thresholds configuráveis via env vars `MIN_INVESTMENT` e `HOT_THRESHOLD`.
 ## Rodar localmente
 
 ```bash
-git clone https://github.com/valterjuniorsilv/iris-langgraph
-cd iris-langgraph
+git clone https://github.com/valterjuniorsilv/sdr-agent-langgraph
+cd sdr-agent-langgraph
 
 python3 -m venv .venv
 source .venv/bin/activate
@@ -138,7 +138,7 @@ Esse agent foi originalmente um workflow visual no n8n (~50 nodes, integração 
 Cada integração externa tem uma interface `Protocol` + 1 implementação `Mock` (usada nos testes) + esqueleto pra implementação real:
 
 ```python
-from iris_langgraph.adapters import EvolutionMessaging, MockMessaging
+from sdr_agent_langgraph.adapters import EvolutionMessaging, MockMessaging
 
 # Em testes:
 messaging = MockMessaging()

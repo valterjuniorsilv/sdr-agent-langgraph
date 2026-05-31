@@ -17,8 +17,8 @@ from __future__ import annotations
 
 from langgraph.graph import END, StateGraph
 
-from iris_langgraph.edges.routing import route_next
-from iris_langgraph.nodes import (
+from sdr_agent_langgraph.edges.routing import route_next
+from sdr_agent_langgraph.nodes import (
     ask_investment_node,
     ask_traffic_node,
     ask_willing_invest_node,
@@ -31,7 +31,7 @@ from iris_langgraph.nodes import (
     spin_problem_node,
     spin_situation_node,
 )
-from iris_langgraph.state import AgentState
+from sdr_agent_langgraph.state import AgentState
 
 
 def _router_node(state: AgentState) -> dict:

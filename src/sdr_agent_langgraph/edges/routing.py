@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Literal
 
-from iris_langgraph.state import AgentState
+from sdr_agent_langgraph.state import AgentState
 
 NodeName = Literal[
     "greeting",

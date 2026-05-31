@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import os
 
-from iris_langgraph.state import AgentState
+from sdr_agent_langgraph.state import AgentState
 
 
 def score_node(state: AgentState) -> dict:

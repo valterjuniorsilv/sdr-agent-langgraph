@@ -2,8 +2,8 @@
 
 import pytest
 
-from iris_langgraph.nodes.score import score_node
-from iris_langgraph.state import initial_state
+from sdr_agent_langgraph.nodes.score import score_node
+from sdr_agent_langgraph.state import initial_state
 
 
 def _state_with(**kwargs):

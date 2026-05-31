@@ -6,8 +6,8 @@ import uuid
 
 import click
 
-from iris_langgraph.graph import build_graph
-from iris_langgraph.state import initial_state
+from sdr_agent_langgraph.graph import build_graph
+from sdr_agent_langgraph.state import initial_state
 
 
 @click.command()

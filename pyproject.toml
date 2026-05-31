@@ -1,5 +1,5 @@
 [project]
-name = "iris-langgraph"
+name = "sdr-agent-langgraph"
 version = "0.1.0"
 description = "SDR agent de qualificação B2B em LangGraph — referência de produção sanitizada"
 authors = [{name = "Valter Silva"}]
@@ -23,7 +23,7 @@ dev = [
 ]
 
 [project.scripts]
-iris = "iris_langgraph.cli:main"
+sdr = "sdr_agent_langgraph.cli:main"
 
 [build-system]
 requires = ["setuptools>=61"]

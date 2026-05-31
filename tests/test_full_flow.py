@@ -1,7 +1,7 @@
 """Tests do fluxo end-to-end do grafo."""
 
-from iris_langgraph.graph import build_graph
-from iris_langgraph.state import initial_state
+from sdr_agent_langgraph.graph import build_graph
+from sdr_agent_langgraph.state import initial_state
 
 
 def _run_one_turn(app, state):

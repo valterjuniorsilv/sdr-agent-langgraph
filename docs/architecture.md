@@ -1,4 +1,4 @@
-# Arquitetura — iris-langgraph
+# Arquitetura — sdr-agent-langgraph
 
 ## Princípio único: cada invoke = 1 turno
 

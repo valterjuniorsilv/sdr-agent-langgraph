@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 
-from iris_langgraph.state import AgentState
+from sdr_agent_langgraph.state import AgentState
 
 # Patterns flexíveis pra detectar dentista (com ou sem artigo)
 DENTIST_PATTERNS = [

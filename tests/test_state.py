@@ -1,6 +1,6 @@
 """Tests do state inicial."""
 
-from iris_langgraph.state import initial_state
+from sdr_agent_langgraph.state import initial_state
 
 
 def test_initial_state_creates_defaults():

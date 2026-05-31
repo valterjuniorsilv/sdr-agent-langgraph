@@ -2,7 +2,7 @@
 
 import pytest
 
-from iris_langgraph.nodes.investment import _parse_value
+from sdr_agent_langgraph.nodes.investment import _parse_value
 
 
 @pytest.mark.parametrize(

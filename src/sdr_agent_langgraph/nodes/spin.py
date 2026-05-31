@@ -6,7 +6,7 @@ Aqui: armazenamos a resposta literal e avançamos.
 
 from __future__ import annotations
 
-from iris_langgraph.state import AgentState
+from sdr_agent_langgraph.state import AgentState
 
 
 def spin_situation_node(state: AgentState) -> dict:
